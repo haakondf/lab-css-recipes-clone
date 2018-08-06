@@ -1,0 +1,79 @@
+body {
+    width: 800px;
+    /* center a page with the combination below */
+    margin-left: auto;
+    margin-right: auto;
+    /*  enter a page with the combination above */
+    background-color: black;
+}
+
+#header{
+    width: 800px;
+    height: 500px;
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    font-size: 30px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    color:white;
+    font-family:"arial";
+
+}
+
+#center1 {
+    background-color: white;
+    width: 800px;
+    height: 200px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+img {
+    
+    width: 250px;
+    height: 50px;
+}
+
+#cookingInfoImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#center2 {
+    background-color: white;
+    width: 800px;
+    height: 450px;
+    float: left;
+    
+}
+
+
+#footer {
+    background-color: white;
+    height: 200px;
+    float: left;
+}
+
+h4 {
+    transform: translate(50px, 0px);
+}
+
+ul {
+    transform: translate(25px, 0px);
+}
